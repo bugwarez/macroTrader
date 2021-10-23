@@ -2,6 +2,7 @@ import websocket, json, pprint, talib, numpy
 import config
 from binance.client import Client
 from binance.enums import *
+import telegram_send
 
 SOCKET = "wss://stream.binance.com:9443/ws/ethusdt@kline_1m"
 
